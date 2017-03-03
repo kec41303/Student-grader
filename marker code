@@ -1,0 +1,40 @@
+
+package asssinment.pkg2;
+import javax.swing.JOptionPane;
+public class Asssinment2 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    // ***** Made by KEVIN *****
+             String StudentName = JOptionPane.showInputDialog("Please enter Name");
+     String Studentmark = JOptionPane.showInputDialog("Please enter Mark");
+    
+            
+            if ( Double.parseDouble (Studentmark)> 80)
+    {
+        System.out.println( Studentmark+ " " + StudentName + " "+"A Pass");        
+    }
+    else  if
+    ( Double.parseDouble (Studentmark) > 69)
+    {
+        System.out.println( Studentmark+ " " + StudentName + " " +"B Pass");        
+    }
+      if ( Double.parseDouble (Studentmark) >50 )
+    {
+        System.out.println( Studentmark + " "+ StudentName + " " + "C Fair");        
+    }
+    else  if ( Double.parseDouble (Studentmark)> 40)
+    {
+        System.out.println( Studentmark+ " " + StudentName + " " +"D Fial");        
+    }
+    else  if ( Double.parseDouble (Studentmark) < 30)
+    {
+        System.out.println( Studentmark + " "+ StudentName + " "  +"E Below standers");        
+    }
+     
+     
+}}
+
